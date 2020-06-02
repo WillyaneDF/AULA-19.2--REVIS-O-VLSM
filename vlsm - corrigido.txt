@@ -1,0 +1,75 @@
+3 - Em Alagoas foi inaugurada a primeira residencia automatizada do país. Esta casa tem um range de 182.30.25.0/24, que precisa ser dividido para atender a todos os equipamentos da casa. Segue as necessidades da casa:
+
+Cozinha - 15 hosts
+Sala - 13 hosts
+Banheiro - 05
+Quarto - 12
+Garagem - 16
+
+Para todas as Subredes, deve-se informar:
+	-ID de Rede
+	-1º IP Válido
+	-Último IP Válido
+	-Broadcast
+
+
+
+
+
+1ºgaragem 16 hosts
+2ºcozinha 15 hosts
+3ºsala 13 hosts
+4ºquarto 12 hosts
+5ºbanheiro 05 hosts
+
+182.30.25.0 /24
+
+
+
+GARAGEM
+
+subrede 1 
+182.30.25.0 /27 garagem
+primeiro ip valido : 182.30.25.1
+último:182.30.25.30
+broadcast : 182.30.25.31
+
+
+COZINHA 
+
+subrede 2 
+182.30.25.32 /27 cozinha
+primeiro ip valido : 182.30.25.33
+último:182.30.25.62
+broadcast : 182.30.25.63 
+
+
+SALA
+
+subrede 3  
+182.30.25.64 /28 sala
+primeiro ip valido : 182.30.25.65
+último:182.30.25.78
+broadcast : 182.30.25.79
+
+
+QUARTO
+
+subrede 4
+182.30.25.80 /28 quarto
+primeiro ip valido : 182.30.25.81
+último:182.30.25.94
+broadcast : 182.30.25.95
+
+BANHEIRO
+
+subrede 5 
+182.30.25.96 /29 banheiro
+primeiro ip valido : 182.30.25.97
+último:182.30.25.102
+broadcast : 182.30.25.103
+
+
+DISPONÍVEL
+6 subrede 182.30.25.104 /...
+subrede 6 disponivel 

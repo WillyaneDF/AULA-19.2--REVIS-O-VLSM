@@ -1,0 +1,97 @@
+Na empresa em que você trabalha, deseja-se fazer a divisão de subredes para o melhor aproveitamento dos endereços IPs. 
+
+Nela existem hoje 7 departamentos:
+
+  -Administração (150 Hosts)
+  -Almoxarifado (2 Hosts)
+  -Diretoria (5 Hosts)
+  -Gerência (16 Hosts)
+  -Gráfica (128 Hosts)
+  -RH (20 Hosts)
+  -TI (10 Hosts)
+
+Partindo da rede 172.16.0.0/16, efetue a divisão de subredes utilizando o método de VLSM, onde deve-se utilizar subredes para cada departamentos com o menor número de desperdício de endereços IPs.
+
+Para todas as Subredes, deve-se informar:
+	-ID de Rede
+	-1º IP Válido
+	-Último IP Válido
+	-Broadcast
+
+
+
+-Administração (150 Hosts)
+-Gráfica (128 Hosts)
+-RH (20 Hosts)
+-Gerência (16 Hosts)
+-TI (10 Hosts)
+-Diretoria (5 Hosts)
+-Almoxarifado (2 Hosts)
+
+
+Partindo da rede 172.16.0.0/16
+
+
+-Administração = 1 subrede
+
+-ID de Rede 172.16.0.0/24
+-1º IP Válido 172.16.0.1
+-Último IP Válido 172.16.0.254
+-Broadcast 172.16.0.255
+
+__________________________________________________
+
+-Gráfica = 2 subrede
+
+-ID de Rede 172.16.1.0/24
+-1º IP Válido 172.16.1.1/24
+-Último IP Válido 172.16.1.254
+-Broadcast 172.16.1.255
+
+__________________________________________________
+
+-RH = 3 subrede
+
+-ID de Rede 172.16.2.0/27
+-1º IP Válido 172.16.2.1
+-Último IP Válido 172.16.2.30
+-Broadcast 172.16.2.31
+
+__________________________________________________
+
+-Gerência = 4 subrede
+
+-ID de Rede 172.16.2.32/27
+-1º IP Válido 172.16.2.33
+-Último IP Válido 172.16.2.62
+-Broadcast 172.16.2.63
+
+__________________________________________________
+
+-TI = 5 subrede
+
+-ID de Rede 172.16.2.64 /28
+-1º IP Válido 172.16.2.65
+-Último IP Válido 172.16.2.78
+-Broadcast 172.16.2.79
+
+__________________________________________________
+
+-Diretoria = 6 subrede
+
+-ID de Rede 172.16.2.80/29
+-1º IP Válido 172.16.2.81
+-Último IP Válido 172.16.2.86
+-Broadcast 172.16.2.87
+
+__________________________________________________
+
+-Almoxarifado = 7 subrede
+
+-ID de Rede 172.16.2.88/30
+-1º IP Válido 172.16.2.89
+-Último IP Válido 172.16.2.90
+-Broadcast 172.16.2.91
+
+_________________________________________________
+disponível= 172.16.2.92
